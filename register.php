@@ -43,7 +43,7 @@
       <select name="states_name">
       <option value="">Select state</option>
       <?php 
-        $query ="SELECT * FROM states";
+        $query ="SELECT * FROM statess";
         $result = $con->query($query);
         while ($row = mysqli_fetch_array($result)) {
           echo '<option>'.$row['states_name'].'</option>';
