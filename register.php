@@ -60,7 +60,7 @@
         echo "</td>";
       ?>
       <?php echo "<td>";?>
-      <select name="blood_group">
+      <select name="bloodgroup_name">
       <option value="">Select blood group</option>
       <?php 
         $query ="SELECT * FROM bloodgroup";
@@ -90,7 +90,7 @@ if(isset($_POST['submit']))
      $email = $_POST['email'];
      $phone = $_POST['phone'];
      $states_name = $_POST['states_name'];
-     $blood_group = $_POST['blood_group'];
+     $blood_group = $_POST['bloodgroup_name'];
      $sql = "INSERT INTO statetable (first_name,last_name,email,phone,states_name,blood_group)
      VALUES ('$first_name','$last_name','$email', '$phone', '$states_name', '$blood_group')";
      if (mysqli_query($con, $sql)) {
