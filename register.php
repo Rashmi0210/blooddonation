@@ -91,7 +91,7 @@ if(isset($_POST['submit']))
      $phone = $_POST['phone'];
      $states_name = $_POST['states_name'];
      $blood_group = $_POST['blood_group'];
-     $sql = "INSERT INTO statetable (first_name,last_name,email,phone,states_name,blood_group)
+     $sql = "INSERT INTO collectdata (first_name,last_name,email,phone,states_name,blood_group)
      VALUES ('$first_name','$last_name','$email', '$phone', '$states_name', '$blood_group')";
      if (mysqli_query($con, $sql)) {
         echo "You have been registered successfully!";
