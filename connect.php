@@ -1,9 +1,9 @@
 <?php
 
-$server = "shobhaserver.mysql.database.azure.com";
+$server = "states.mysql.database.azure.com";
 $userid ="admin123";
-$Password = "shobha@123456789";
-$myDB = "states";
+$Password = "gayatri@1234";
+$myDB = "statesdb";
 $con = mysqli_connect($server,$userid,$Password,$myDB);
 if (mysqli_connect_errno()) {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
