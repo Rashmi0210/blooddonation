@@ -1,6 +1,6 @@
 <?php
 
-$server = "shobhaserver.mysql.database.azure.com";
+$server = "rashmiedunet.mysql.database.azure.com";
 $userid ="admin123";
 $Password = "shobha@123456789";
 $myDB = "states";
